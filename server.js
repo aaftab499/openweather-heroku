@@ -49,6 +49,6 @@ app.get((req, res, next) => {
 // configuring port for express server
 let port = process.env.PORT || '5000';
 
-app.listen(port, function () {
+app.listen(port, () => {
     console.log("node server started on port " + port);
 });
